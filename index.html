@@ -1,0 +1,70 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Grievance Support System</title>
+  <!--BootStrap-->
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/font-awesome.min.css">
+  <!--JavaScript-->
+  <script src="js/jquery.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <style>
+	.nav-item{
+		padding: 0px 10px; 
+	}
+    .hr{
+		width: 95px;
+		height: 2px;
+		background-color: #00d1b5;
+	}
+	.content{
+		margin-top: 2%;
+		max-width: 900px;
+	}
+	footer{
+		margin-top: 300px;
+	}
+  </style>
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+	<div class="container">
+	  <div class="navbar-brand">
+		<img src="images/logo.png" width="50" height="30" alt="">
+	  </div>
+	  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"                         aria-label="Toggle navigation">
+		<span class="navbar-toggler-icon"></span>
+	  </button>
+	  <div class="collapse navbar-collapse justify-content-md-center" id="navbarSupportedContent">
+		<ul class="navbar-nav mr-auto">
+		  <li class="nav-item">
+			<a class="nav-link text-white" href="students/login.php">Student Login</a>
+		  </li>
+		  <li class="nav-item">
+			<a class="nav-link text-white" href="students/signup.php">Student Register</a>
+		  </li>
+		  <li class="nav-item">
+		    <a class="nav-link text-white" href="users/login.php">Admin Login</a>
+		  </li>
+		</ul>
+	  </div>
+	</div>
+  </nav>
+  <div class="container-fluid">
+	<div class="container content shadow-sm p-3 mb-5 bg-white rounded">
+	  <div class="text-dark text-center alert">
+	    <h3 class="text-uppercase">Grievance Support System</h3>
+	    <hr class="hr">
+	  </div>
+	</div>
+  </div>
+  <footer class="text-center">
+	<p>Copyright &copy; <script>document.write(new Date().getFullYear());</script></p>
+	<p>Version 1.0.0</p>
+  </footer>
+</body>
+</html>
